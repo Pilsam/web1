@@ -1,0 +1,168 @@
+.profile-container{
+    width: 100%;
+    margin: 10px;
+}
+.profile-content{
+    display: flex;
+    padding: 20px;
+    width: 80%;
+    padding-left: 12%;
+}
+.profile-img{
+    margin-right: 20px;
+}
+.profile-img h4{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+.profile-img img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.profile-words{
+    padding-left: 20px;
+}
+.profile-words p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.branch-container{
+    margin: 10px;
+}
+
+.branch-content{
+    width: 80%;
+    display: flex;
+    margin-left: 125px;
+   
+
+}
+.branch-img-one img{
+    width: 600px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.branch-content-main{
+    width: 80%;
+    display: block;
+    margin-left: 125px;
+}
+
+.branch-content-main-one{
+    width: 80%;
+    display: flex;
+    margin-left: 125px;
+}
+.branch-img-two img{
+    width: 600px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.social-media{
+    width: 80%;
+    display: flex;
+    padding-left: 100px;
+
+}
+
+.tweeter{
+    margin-right: 100px;
+    width: 100%;
+    height: 10px;
+}
+.facebook{
+    margin-left: 0px;
+    width: 1200px;
+}
+
+
+.donations{
+    height: auto;
+    width: 100%;
+}
+.donate-container{
+    width: 87%;
+    margin-left: 100px;
+}
+.paypal{
+    background-image: url(/images/body/donate1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.paypal-content{
+    width: 40%;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.mpesa-content{
+    width: 40%;
+    padding-top: 45px;
+    margin-left: 400px;
+}
+
+/*----------CAREERS----------*/
+.container-fluid-careers{
+    margin: 20px;
+  
+}
+
+.container-careers{
+    width: 80%;
+    margin-left: 130px;
+    border-radius: 1%;
+}
+
+.career-content{
+    width: 70%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 120px;
+}
+
+/*----------INTERNSHIP----------*/
+.container-fluid-internship{
+    margin: 20px;
+}
+
+.container-internship{
+    width: 80%;
+    margin-left: 130px;
+    border-radius: 1%;
+}
+
+.internship-content{
+    width: 70%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+
+/*----------VOLUNTEER----------*/
+.container-fluid-volunteer{
+    margin: 20px;
+}
+
+.container-volunteer{
+    width: 80%;
+    margin-left: 130px;
+    border-radius: 1%;
+}
+
+.volunteer-content{
+    width: 70%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 120px;
+}
