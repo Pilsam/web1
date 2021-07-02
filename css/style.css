@@ -17,7 +17,7 @@ body{
     top: 0;
     width: 100%;
     height: 100vh;
-    animation: animate 20s ease-in-out infinite;
+    animation: animate 50s ease-in-out infinite;
     margin-bottom: 0%;
 }
 
@@ -35,16 +35,16 @@ body{
     0%, 100%{
         background-image: url(/images/header/img0.JPG);
     }
-    10%{
+    50%{
         background-image: url(/images/header/img9.JPG);
     }
-    20%{
+    50%{
         background-image: url(/images/header/img10.JPG);
     }
-    30%{
+    50%{
         background-image: url(/images/header/img12.JPG);
     }
-    40%{
+    50%{
         background-image: url(/images/header/img3.JPG);
     }
     50%{
@@ -64,7 +64,7 @@ body{
     }
 
 }
- /*---------logo---------*/
+ /*---------LOGO--------*/
 .logo{
     padding: 1%;
 }
@@ -285,7 +285,7 @@ iframe{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/contact.JPG);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/web1/images/header/green.JPG);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -493,7 +493,7 @@ h2{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/body/contact1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/web1/images/);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
