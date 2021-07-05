@@ -24,14 +24,14 @@ nav{
     background-color: #3e65da;
 }
 
-nav .logo{
+nav .logo img{
     float: left;
-    width: 40%;
-    height: 100%;
+    width: 14%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    font-size: 24px;
-    color: #fff;
+    padding-top: 15px;
+
 }
 
 nav .links{
@@ -86,6 +86,10 @@ nav .icon-burger .line{
         float: left;
         width: auto;
         justify-content: center;
+    }
+
+    nav .logo img{
+        width: 77%;
     }
     nav .links{
         float: none;
