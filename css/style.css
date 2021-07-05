@@ -650,7 +650,7 @@ h2{
         font-size: 20px;
     }
     .cta{
-        width: 80%;
+        width: 96%;
         background-position: center;
         background-size: cover;
         border-radius: 5px;
@@ -697,6 +697,16 @@ h2{
 .slick-initialized .slick-slide{
     display: block;
 }
+
+@media(max-width: 768px) {
+    .slick-slide img{
+        width: 100%;
+        cursor: pointer;
+        
+    }
+}
+
+
 
 
 /*--------FOOTER----------*/
