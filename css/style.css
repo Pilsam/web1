@@ -9,9 +9,7 @@ body{
 }
 
 
-
-/*---------HEADER1---------*/
-
+/*---------HEADER---------*/
 nav{
     position: fixed;
     z-index: 10;
@@ -134,39 +132,9 @@ nav .icon-burger .line{
     }
     nav .icon-burger .line{
         transition: all .3s ease-in-out;
-    }
-    
-    
+    } 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------HEADER---------*/
 .header-top{
     background-position: center;
     background-size: cover;
@@ -222,9 +190,6 @@ nav .icon-burger .line{
     }
 
 }
-
-
-
 .text-box{
     width: 90%;
     color: #fff;
@@ -343,7 +308,6 @@ nav .fa{
 }
 
 
-
 /*-----VISION AND MISSION-----*/
 .container {
     width: 100%;
@@ -384,7 +348,7 @@ nav .fa{
     padding-bottom: 1em;
   }
 
-  @media(max-width: 700px){ 
+  @media(max-width: 768px){ 
     .profile__content{
         background: #2a0e4d ;
         width: auto;
@@ -402,9 +366,9 @@ nav .fa{
   }
 
 
+
 /*-----YOUTUBE-----*/
 .youtube{
-    
     width: 100%;
 }
 .youtube-link{
@@ -426,13 +390,14 @@ iframe{
     padding-top: 50px;
     padding-bottom: 20px;
 }
-@media(max-width: 700px){
+@media(max-width: 768px){
     .youtube-link{
         display: block;
         width: 97%;
     }
     iframe{
         width: 100%;
+        height: 50vh;
         padding-left: 2%;
     }
 }
