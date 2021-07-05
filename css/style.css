@@ -401,6 +401,17 @@ iframe{
         padding-left: 2%;
     }
 }
+@media(max-width: 568px){
+    .youtube-link{
+        display: block;
+        width: 97%;
+    }
+    iframe{
+        width: 100%;
+        height: 30vh;
+        padding-left: 2%;
+    }
+}
 
 
 
