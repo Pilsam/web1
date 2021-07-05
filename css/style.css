@@ -82,6 +82,17 @@ nav .icon-burger .line{
 
 
 @media screen  and (max-width: 768px) {
+    nav{
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0 1px;
+        height: 60px;
+        background-color: #53358e;
+    }
     nav .logo{
         float: left;
         width: auto;
@@ -89,8 +100,8 @@ nav .icon-burger .line{
     }
 
     nav .logo img{
-        width: 77%;
-        padding-top: 14%;
+        width: 66%;
+        padding-top: 5%;
     }
     nav .links{
         float: none;
@@ -116,6 +127,7 @@ nav .icon-burger .line{
     }
     nav .icon-burger{
         display: block;
+        top: 40%;
     }
     nav :checked ~ .links{
         bottom: 0;
