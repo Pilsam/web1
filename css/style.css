@@ -65,8 +65,8 @@ nav .links a {
 
 nav .icon-burger{
     display: none;
-    position: absolute;
-    right: 5%;
+    position: relative;
+    float: right;
     top: 50%;
     transform: translate(-50%);
 }
@@ -123,6 +123,7 @@ nav .icon-burger .line{
     nav .icon-burger .line{
         transition: all .3s ease-in-out;
     }
+    
     
 }
 
@@ -256,7 +257,7 @@ nav .fa{
 
 @media(max-width: 700px){ 
     .text-box h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     .nav-links ul li{
         display: block;
@@ -308,6 +309,25 @@ nav .fa{
         font-size: 9px;
         color: #fff;
     }
+    .hero-btn{
+        font-size: 7px;
+        padding: 8px 20px;
+    }
+
+    
+@keyframes animate{
+    0%, 100%{
+        background-image: url(/images/header/img0.JPG);
+    }
+    50%{
+        background-image: url(/images/header/img9.JPG);
+    }
+    90%{
+        background-image: url(/images/header/img10.JPG);
+    }
+}
+
+
 }
 
 
