@@ -479,6 +479,12 @@ iframe{
         display: block;
 
     }
+    .branch-col img{
+        visibility: hidden;
+        width: 0%;
+        cursor: pointer;
+     }
+
     
 }
 
