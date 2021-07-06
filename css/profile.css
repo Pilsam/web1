@@ -10,6 +10,7 @@
 }
 .profile-img{
     margin-right: 20px;
+    padding-top: 30px;
 }
 .profile-img h4{
     font-size: 20px;
@@ -165,4 +166,32 @@
     font-size: 18px;
     font-weight: 400;
     margin-left: 120px;
+}
+
+/*----------our team----------*/
+
+.sub-header-team{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/images/header/contact.JPG);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff; 
+}
+.sub-header-top{
+    display: flex;
+    
+}
+
+.team-header{
+    position: relative;
+    text-align: center;
+    margin-top: 23%;
+    left: 29%;
+    width: 40%;
+}
+.team-header h1{
+    font-weight: 500;
+    color: #fff;
 }
