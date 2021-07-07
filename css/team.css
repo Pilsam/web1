@@ -212,3 +212,11 @@ body {
 .designation {
     font-size: 10px
 }
+
+@media (max-width: 728px){
+    .card {
+        border: none;
+        border-radius: 13px;
+        position: absolute;
+    }
+}
