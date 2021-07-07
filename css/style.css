@@ -241,7 +241,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 700px){ 
+@media(max-width: 768px){ 
     .text-box h1{
         font-size: 30px;
     }
@@ -367,6 +367,14 @@ nav .fa{
         width: auto;
         height: auto;
         margin-top: 0px;
+        padding: 10px;
+      }
+
+      .profile__content p {
+        margin-top: 0px;
+        letter-spacing: .05em;
+        line-height: 1.4;
+        font-weight: 300;
       }
 
       .row-VM{
@@ -729,12 +737,7 @@ h2{
 /*--------FOOTER----------*/
 
 footer{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    flex-flow: row wrap;
-    padding: 100px;
+    padding: 10px;
     color: #fff;
     background-color: #011c39;
 }
@@ -769,19 +772,18 @@ footer{
     text-decoration: none;
 }
 .footer-right{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    flex-flow: row wrap;
-    width: 40%;
+    width: 80%;
+    display: flex;
+    top: 1%;
 }
 .footer-right > *{
     flex: 1 100%;
-    margin-right: 0.25em;
+    margin-right: 1.35em;
 }
 .box a{
-    color: #999;
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
 }
 .product .features .address{
     width: 10px;
@@ -789,6 +791,7 @@ footer{
 .footer-left p{
     padding-right: 20%;
     color: #999;
+    font-size: 14px;
 }
 .socials a{
     background: transparent;
@@ -800,8 +803,9 @@ footer{
 .socials a i{
     color: #e7f2f4;
     padding: 20px;
-    font-size: 38px;
+    font-size: 20px;
 }
+
 @media(max-width: 768px){
     .footer-content{
         display: block;
@@ -1086,24 +1090,6 @@ footer{
     text-align: center;
     font-weight: 500;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .program{
     width: 80%;
     margin: auto;
