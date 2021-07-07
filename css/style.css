@@ -791,24 +791,37 @@ footer{
     padding: 20px;
     font-size: 38px;
 }
-@media screen and (min-width:600px){
-    .footer-right> *{
-        flex: 1 0px;
+@media(max-width: 768px){
+    .footer-content{
+        display: block;
+        width: 100%;
     }
-    .footer-left{
-        flex: 2 0px;
+
+    .footer-left img{
+        width: 150%;
+        padding-right: 1%;
     }
-    .footer-left .socials .fa{
-        flex: 2 0px;
+    .footer-left p{
+        width: 200%;
+        padding-right: -100px;
+        font-size: small;
     }
-    .footer-right{
-        flex: 2 0px;
+    .socials{
+        display: flex;
+    }
+    .socials a i{
+        color: #e7f2f4;
+        padding: 0px;
+        font-size: 25px;
     }
 
 }
+
+
+
 .footer-bottom{
     text-align: center;
-    height: 11vh;
+    height: 8vh;
     align-content: center;
     display: flex;
     position: relative;
@@ -821,27 +834,19 @@ footer{
 
 
   .footer-content-left{
-    padding-top: 25px;
-    float: left;
+    padding-top: 20px;
     display: flex; 
   }
   
-  .footer-content-right{
-    padding-top: 25px;
-    padding-left: 8%;
-    float: right;
-    display: flex;
-    
-  }
 
-  .footer-content-left li{
+  .footer-content-left p{
         font-size: 12px;
         list-style: none;
         text-decoration: none;
        
   }
   .footer-content-right li{
-    font-size: 12px;
+    font-size: 8px;
     list-style: none;
 }
 
@@ -855,44 +860,10 @@ footer{
 }
 
 @media (max-width: 728px){
-    .footer-content{
-        display: block;
-        width: auto;
-        height: auto;
-        
-    }
+   
 
-    .footer-bottom{
-        display: block;
-        width: auto;
-        height: auto;
-        background: #000;
-    }
-    .socials a i{
-        color: #e7f2f4;
-        padding: 5px;
-        font-size: 12px;
-    }
-    .footer-content-left{
-        display: block;
-        
-    }
-    .footer-content-right{
-        display: block;
-    }
 
 }
-
- .icons .fa{
-     color: #f44336;
-     margin: 0 13px;
-     cursor: pointer;
-     padding: 18px 0;
- }
-
- .fa-heart-o{
-     color: #f44336;
- }
 
 
 
