@@ -217,6 +217,8 @@ body {
     .card {
         border: none;
         border-radius: 13px;
-        position: absolute;
+        position: relative;
+        margin-right: 10px;
+
     }
 }
