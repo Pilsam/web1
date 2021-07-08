@@ -675,12 +675,20 @@ h2{
         font-size: 15px;
     }
     .cta{
+        margin: 0px auto;
         width: 96%;
         background-position: center;
         background-size: cover;
         border-radius: 5px;
         text-align: center;
         padding: 5px 0;
+    }
+    h1  {
+        font-size: 10px;
+    }
+
+    h2, h3{
+        font-size: 8px;
     }
 }
 
