@@ -672,15 +672,16 @@ h2{
 }
 @media(max-width: 768px) {
     .cta h1{
-        font-size: 20px;
+        font-size: 15px;
     }
     .cta{
         width: 96%;
         background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
         border-radius: 5px;
         text-align: center;
-        padding: 30px 0;
+        padding: 5px 0;
     }
 }
 
@@ -737,7 +738,7 @@ h2{
 /*--------FOOTER----------*/
 
 footer{
-    padding: 10px;
+    padding: 100px;
     color: #fff;
     background-color: #011c39;
 }
@@ -803,7 +804,7 @@ footer{
 .socials a i{
     color: #e7f2f4;
     padding: 20px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 @media(max-width: 768px){
@@ -875,7 +876,11 @@ footer{
 }
 
 @media (max-width: 728px){
-   
+    footer{
+        padding: 10px;
+        color: #fff;
+        background-color: #011c39;
+    }
 
 
 }
