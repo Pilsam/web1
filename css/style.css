@@ -995,6 +995,7 @@ footer{
     list-style-type: none;
     text-decoration: none;
     padding-left: 15%;
+    font-size: 12px;
     
 }
 .about-us-who{
@@ -1019,6 +1020,16 @@ footer{
     padding-left: 1px;
     font-size: 12px;
  }
+ .about-us{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+}
+.about-us h1{
+    font-size: 15px;
+}
 
 }
 
