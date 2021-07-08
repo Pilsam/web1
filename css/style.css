@@ -28,7 +28,7 @@ nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0 5%;
     height: 80px;
-    background-color: #53358e;
+    background-color: #011c39;
 }
 
 nav .logo img{
@@ -1017,12 +1017,15 @@ footer{
 .about-us-header{
     position: relative;
     text-align: center;
-    left: 20%;
+    left: 30%;
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
 }
 .about-us-header h1{
     margin-top: 100%;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
 }
 .about-col p{
@@ -1242,6 +1245,71 @@ footer{
 .impact-col{
     flex-basis: 70%;
     padding: 30px 30px;
+}
+
+@media (max-width: 728px){
+    .sub-header-programs{
+        height: 60vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/images/header/img4.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center; 
+    }
+
+    .program-header{
+        width: 70%;
+        padding: 0px;
+        position: relative;
+        text-align: center;
+        margin-top: 20%;
+        left: 15%;
+        
+    }
+    .program-header h1{
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 90%;
+        
+    }
+
+    .program-tab{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        padding: 0px;
+        padding-left: 5%;
+    }
+    .program-tab-content ul{
+        display: block;  
+    }
+    .program-tab-content ul li{
+        text-align: left;
+        list-style-type: none;
+        text-decoration: none;
+        padding-left: 5%;
+        
+    }
+    .program{
+        width: 80%;
+        margin: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 1%;
+    }
+    .program-col{
+        flex-basis: 100%;
+        padding: 80px 10px;
+     }
+     .program-col p{
+        padding: 1px;
+        font-size: 12px;
+     }
+     .program-col h1{
+         font-size: 18px;
+     }
+
 }
 
 /*GET INVOLVED*/
