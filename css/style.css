@@ -890,6 +890,7 @@ footer{
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/images/header/green.JPG);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     color: #fff; 
 }
@@ -1002,6 +1003,10 @@ footer{
     font-weight: 600;
     font-size: 25px;
 }
+.about-col p{
+    padding-left: 1px;
+    font-size: 12px;
+ }
 
 }
 
