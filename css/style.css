@@ -926,7 +926,7 @@ footer{
 }
 .about-col{
    flex-basis: 80%;
-   padding: 30px 30px;
+   padding: 10px 10px;
 }
 .about-col img{
    width: 100%;
