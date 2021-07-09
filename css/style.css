@@ -321,12 +321,12 @@ nav .fa{
 
 @media(max-width: 768px){
     .header-slide{
-        height: 30vh;
+        height: 40vh;
         background-color: #ffff01;
         width: 100%;
     }
     .slide1, .slide2, .slide3, .slide4{
-        height: 40vh;
+        height: 50vh;
         width: 100%;
         position: absolute;
         left: 0;
