@@ -269,7 +269,7 @@ nav .icon-burger .line{
         visibility: visible;
     }
     100%{
-        visibility: hidden;
+        visibility: visible;
     }
 }
 
@@ -978,21 +978,24 @@ footer{
     padding-left: 15%;
 }
 .about-us-who{
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 5px;
-    padding-left: 10%;
+    padding-left: 3%;
 }
 .about-col{
-   flex-basis: 80%;
-   padding: 10px 10px;
+   
 }
 .about-col img{
    width: 100%;
 }
 .about-col p{
-   padding: 15px 0 25px;
+   margin: 40px;
+   padding: 0;
+   line-height: 30px;
+   font-size: 22px;
+   justify-content: right;
 }
 
 .red-btn{
