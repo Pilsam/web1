@@ -439,14 +439,23 @@ nav .fa{
 
 }
 .video-content{
-    padding-top: 70px;
+    padding: 20px;
+    
+    
+
 }
 iframe{
     border-radius: 5px;
 }
 .video-content p{
-    padding-left: 20px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 17px;
+    border: 1px solid #f44336;
+    border-radius: 20px;
+    padding: 20px;
+    
+
 }
 .video{
     padding-top: 50px;
@@ -461,6 +470,16 @@ iframe{
         width: 100%;
         height: 50vh;
         padding-left: 2%;
+    }
+    .video-content p{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 14px;
+        border: 0px solid #f44336;
+        border-radius: 20px;
+        padding: 5px;
+        
+    
     }
 }
 @media(max-width: 568px){
