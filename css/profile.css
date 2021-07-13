@@ -3,10 +3,28 @@
     margin: 10px;
 }
 .profile-content{
-    display: flex;
+    display: block;
     padding: 20px;
     width: 80%;
     padding-left: 12%;
+}
+
+.profile-header{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.profile-header-content{
+    padding-top: 300px;
+}
+
+.profile-socials{
+    font-size: 30px;
+    color: #f21987;
+}
+
+.profile-socials a .fa{
+    color: #f21987;
 }
 .profile-img{
     margin-right: 20px;
@@ -18,9 +36,9 @@
     padding-top: 15px;
 }
 .profile-img img{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    border-radius: 5%;
+    width: 400px;
+    height: 400px;
 }
 .profile-words{
     padding-left: 20px;
@@ -28,6 +46,14 @@
 .profile-words p{
     font-size: 20px;
     font-weight: 300;
+}
+
+
+@media(max-width: 768px){
+    .profile-header{
+        display: block;
+        margin-bottom: 50px;
+    }
 }
 
 .branch-container{
