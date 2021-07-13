@@ -150,7 +150,7 @@ nav .icon-burger .line{
 
 .header-slide{
     height: 90vh;
-    background-color: #ffff01;
+    background-color: #a1a188;
     width: 100%;
 
 }
@@ -192,14 +192,15 @@ nav .icon-burger .line{
 
 
 .text-box h1{
-    font-size: 62px;
+    font-size: 60px;
     margin-bottom: 20px;
-    opacity: 9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 450px;
+    color: #000;
+    font-weight: 800;
 }
 .text-box p{
-    margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -270,7 +271,7 @@ nav .icon-burger .line{
         visibility: visible;
     }
     100%{
-        visibility: visible;
+        visibility: hidden;
     }
 }
 
@@ -990,6 +991,39 @@ footer{
 
 }
 
+/*-----ABOUT ABOUT ABOUT ABOUT US-----*/
+.about-us-container{
+    width: 85%;
+    margin: 100px;
+    display: block;
+    margin-top: 10px;
+}
+
+.about-us-content{
+    width: 70%;
+    margin: 150px;
+    border-radius: 20px;
+    margin-top: -70px;
+    border: 1px solid #ccc;
+}
+.content-one{
+    padding: 20px;
+}
+
+.content-one span{
+    width: 500px;
+    height: 10px;
+    color: black;
+}
+
+.content-one p{
+    font-size: 20px;
+}
+
+
+
+
+
 
 
 
@@ -1033,6 +1067,10 @@ footer{
     padding-top: 20px;
     padding-bottom: 5px;
     padding-left: 3%;
+}
+
+.about-us-who p{
+    font-size: 19px;
 }
 .about-col{
    
@@ -1106,6 +1144,9 @@ footer{
     padding-bottom: 5px;
     padding-left: 1px;
 }
+.about-us-who p{
+    font-size: 16px;
+}
 .about-us-header{
     position: relative;
     text-align: center;
@@ -1137,6 +1178,97 @@ footer{
 
 }
 
+/*--------TEAM TEAM TEAM--------*/
+
+
+.executive{
+    margin: 0px;
+    padding: 4px;
+    width: 100%;
+}
+
+.executive-content{
+    width: 80%;
+    display: block;
+    margin: 100px;
+   
+}
+
+.executive-content h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.executive1{
+    display: flex;
+     margin-bottom: 100px;
+}
+
+.executive-content-1{
+    margin-left: 30px;
+    padding: 20px;
+}
+ 
+.executive-content-1 p{
+    font-size: 18px;
+}
+
+.executive1 a{
+    text-decoration:underline;
+    color: #999;
+    font-weight: 300;
+}
+
+
+
+.executive-img{
+
+}
+
+.executive-img img{
+    width: 350px;
+}
+
+@media (max-width: 728px){
+    .executive1{
+        display: block;
+         margin-bottom: 50px;
+    }
+    .executive{
+        margin: 0px;
+        padding: 4px;
+        width: 100%;
+    }
+    
+    .executive-content{
+        width: 80%;
+        display: block;
+        margin: 10px;
+       
+    }
+    .executive-content-1{
+        margin-left: 1px;
+        padding: 1px;
+    }
+     
+    .executive-content-1 p{
+        font-size: 14px;
+    }
+    .executive-content h3{
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    .team-col{
+        width: 100%;
+        padding: 0px;
+    }
+    .team-col p{
+        font-size: 12px;
+    }
+
+}
+
 
 
 
@@ -1149,8 +1281,11 @@ footer{
     padding-right: 15%;
 }
 .team-col{
-    flex-basis: 60%;
-   padding: 30px 30px;
+    width: 550px;
+}
+
+.team-col p{
+    font-size: 20px;
 }
 .team{
     margin:  50px;
@@ -1326,18 +1461,7 @@ footer{
     flex-basis: 70%;
     padding: 30px 30px;
 }
-.impact{
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 5px;
-    padding-left: 7%;
-}
 
-.impact-col{
-    flex-basis: 70%;
-    padding: 30px 30px;
-}
 
 @media (max-width: 728px){
     .sub-header-programs{
@@ -1405,6 +1529,91 @@ footer{
 }
 
 /*GET INVOLVED*/
+
+
+/*IMPACT IMPACT IMPACT*/
+
+.impact{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 7%;
+}
+
+.impact-col{
+    
+}
+
+.impact-img img{
+    width: 800px;
+}
+
+.impact-content{
+    width: 75%;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding: 0px;
+}
+
+.impact-content p{
+    font-size: 18px;
+    justify-content: left;
+}
+
+@media(max-width:768px){
+    .impact{
+        width: 90%;
+        margin: 0px;
+        padding-top: 4px;
+        padding-bottom: 5px;
+        padding-left: 0%;
+    }
+    .impact-img img{
+        width: 400px;
+    }
+
+    
+.impact-content{
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 0px;
+}
+.impact-content p{
+    font-size: 16px;
+    justify-content: left;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .sub-header-involved{
     height: 60vh;
