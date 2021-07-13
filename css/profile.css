@@ -1,12 +1,13 @@
 .profile-container{
     width: 100%;
-    margin: 10px;
+    margin: 4px;
 }
 .profile-content{
     display: block;
     padding: 20px;
     width: 80%;
     padding-left: 12%;
+    font-size: x-large;
 }
 
 .profile-header{
@@ -20,11 +21,11 @@
 
 .profile-socials{
     font-size: 30px;
-    color: #f21987;
 }
 
 .profile-socials a .fa{
-    color: #f21987;
+    color: #4e4e4e;
+    margin: 6px;
 }
 .profile-img{
     margin-right: 20px;
@@ -44,7 +45,7 @@
 }
 
 .profile-img-content{
-    margin-top: 250px;
+    margin-top: 200px;
     padding-left: 50px;
 }
 
@@ -63,6 +64,14 @@
 
 
 @media(max-width: 768px){
+
+    .profile-content{
+        display: block;
+        padding: 5px;
+        width: 80%;
+        padding-left: 2%;
+    }
+
     .profile-header{
         display: block;
         margin-bottom: 50px;
@@ -74,16 +83,38 @@
         display: block;
         margin-bottom: 5px;
     }
+    .profile-img img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
     .profile-img-content{
         margin-top: 20px;
-        padding-left: 50px;
+        padding-left: 10px;
         
+    }
+    .profile-socials{
+        font-size: 20px;
     }
 
     .profile-img-content h5{
-        font-weight: 300;
-        margin-left: 100px;
+        margin-left: 10px;
+        text-align: left;
+        font-size: 20px;
     }
+    .profile-img-content h2{
+        margin-left: 10px;
+        text-align: left;
+        font-size: 20px;
+    }
+    .profile-words{
+        padding-left: 5px;
+    }
+    .profile-words p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+
 }
 
 
