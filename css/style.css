@@ -1053,6 +1053,64 @@ footer{
     font-size: 20px;
 }
 
+@media(max-width: 768px){
+    .about-us-container{
+        width: 100%;
+        margin: 1px;
+        display: block;
+        margin-top: 4px;
+    }
+    .about-us-content{
+        width: 100%;
+        margin: 1px;
+        border-radius: 2px;
+        margin-top:40px;
+        border: 0px solid #ccc;
+    }
+    .content-one{
+        padding: 10px;
+    }
+    .content-one h3{
+        font-size: 18px;
+
+    }
+    .content-one p{
+        font-size: 16px;
+    }
+
+}
+
+/*-----PROGRAM PROGRAM PROGRAM-----*/
+
+.program-container{
+    width: 85%;
+    margin: 100px;
+    display: block;
+    margin-top: 10px;
+}
+
+.program-content{
+    width: 70%;
+    margin: 150px;
+    border-radius: 20px;
+    margin-top: -70px;
+    border: 1px solid #ccc;
+}
+.program-content-one{
+    padding: 20px;
+}
+
+.program-content-one span{
+    width: 500px;
+    height: 10px;
+    color: black;
+}
+
+.program-content-one p{
+    font-size: 20px;
+}
+
+
 
 
 
