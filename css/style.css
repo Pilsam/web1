@@ -1217,25 +1217,6 @@ footer{
 
 @media (max-width: 728px){
     
-.about-tab{
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    padding: 0px;
-}
-
-.tab-content ul{
-    display: block; 
-     
-}
-.tab-content ul li{
-    text-align: left;
-    list-style-type: none;
-    text-decoration: none;
-    padding-left: 15%;
-    font-size: 12px;
-    
-}
 .about-us-who{
     width: 100%;
     margin: auto;
@@ -2158,7 +2139,6 @@ footer{
     }
 
 }
-
 
 .about-tab{
     width: 100%;
