@@ -1214,27 +1214,7 @@ footer{
    color: #fff;
 }
 
-.about-tab{
-    width: 100%;
-    height: 10vh;
-    margin-top: 0px;
-    padding: 23px;
-    padding-left: 15%;
-}
-.tab-content ul{
-    display: flex;  
-}
-.tab-content ul li{
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
-    padding-left: 2%;
-    
-}
-.tab-content ul li a{
-    color: #bf0041;
-    text-decoration: none;
-}
+
 @media (max-width: 728px){
     
 .about-tab{
@@ -2090,3 +2070,115 @@ footer{
     box-sizing: border-box;
 }
 }
+
+
+
+
+
+
+
+
+/*----------------HEADERS HEADERS HEADERS HEADERS-------------------*/
+
+
+/*----------ABOUT US HEADER---------------*/
+.about-header{
+    height: 80vh;
+    background-color: #000;
+    width: 100%;
+}
+.about{
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    overflow: hidden;
+}
+.about-img img{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.7;
+}
+.about-text-box{
+    height: auto;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    position: relative;
+    margin-top: 400px;
+}
+.about-text-box h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva,  Tahoma, italic, sans-serif;
+    color: #ffff;
+    font-weight: 800;
+}
+.about-text-box p{
+    font-size: 20px;
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .about-header{
+        height: 39vh;
+        background-color: #000;
+        width: 100%;
+    }
+    .about{
+        height: 39vh;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        opacity: 1;
+        overflow: hidden;
+    }
+    .about-img img{
+        height: auto;
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+        opacity: 0.5;
+    }
+    .about-text-box{
+        height: auto;
+        width: 100%;
+        color: #000;
+        text-align: center;
+        position: relative;
+        margin-top: 125px;
+    }
+    .about-text-box h1{
+        font-size: 30px;
+        font-family: Verdana, Geneva,  Tahoma, italic, sans-serif;
+        color: #ffff;
+        font-weight: 300;
+    }
+
+}
+
+
+.about-tab{
+    width: 100%;
+    height: 10vh;
+    margin-top: 0px;
+    padding: 23px;
+    padding-left: 15%;
+}
+.tab-content ul{
+    display: flex;  
+}
+.tab-content ul li{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 2%;
+    
+}
+.tab-content ul li a{
+    color: #bf0041;
+    text-decoration: none;
+}
+
