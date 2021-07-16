@@ -2532,6 +2532,49 @@ footer{
     }
 }
 
+
+/*--------------OUR HISTORY-----------------*/
+
+.history{
+    width: 100%;
+    height: auto;
+    margin: 50px;
+}
+
+.our-history{
+    width: 90%;
+    padding: 10px;
+}
+
+.our-history p{
+    font-size: 20px;
+    line-height: 2.3pc;
+}
+
+@media (max-width: 768px){
+    .history{
+        width: 100%;
+        height: auto;
+        margin: 2px;
+    }
+    .our-history{
+        width: 90%;
+        padding: 1px;
+    }
+    .our-history h4{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .our-history p{
+        font-size: 14px;
+        line-height: 1.2pc;
+        padding-left: 10px;
+    }
+    .our-history img{
+        width: 100%;
+    }
+}
+
 /*--------------WHO WE ARE-----------------*/
 
 .about-us-who-we-are{
@@ -2563,7 +2606,7 @@ footer{
         padding-left: 1px;
     }
     .who-we-are-col{
-        padding: 1px;
+        padding: 10px;
     }
     .who-we-are-col img{
         width: 100%;
@@ -2592,7 +2635,7 @@ footer{
     padding: 10px;
 }
 .vision-and-mission-col img{
-    width: 1000px;
+    width: 100%;
 }
 
 .vision-and-mission-col{
@@ -2609,7 +2652,7 @@ footer{
         padding-left: 1px;
     }
     .vision-and-mission-col{
-        padding: 1px;
+        padding: 10px;
     }
     .vision-and-mission-col img{
         width: 100%;
@@ -2653,7 +2696,7 @@ footer{
         padding-left: 1px;
     }
     .where-we-work-col{
-        padding: 1px;
+        padding: 10px;
     }
     .where-we-work-col img{
         width: 100%;
@@ -2697,7 +2740,7 @@ footer{
         padding-left: 1px;
     }
     .our-impact-col{
-        padding: 1px;
+        padding: 10px;
     }
     .our-impact-col img{
         width: 100%;
