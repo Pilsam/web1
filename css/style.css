@@ -99,7 +99,7 @@ nav .icon-burger .line{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         padding: 0 1px;
         height: 60px;
-        background-color: #53358e;
+        background-color: #011c39;
     }
     nav .logo{
         float: left;
@@ -299,7 +299,7 @@ nav .icon-burger .line{
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
@@ -308,12 +308,13 @@ nav .icon-burger .line{
     cursor: pointer;
 }
 .hero-btn a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #011c39;
+    background: #011c39;
+    color: #fff;
     transition: 1s;
 }
 
@@ -371,7 +372,7 @@ nav .fa{
     margin-left: auto;
 }
 .profile__content{
-    background: #2a0e4d ;
+    background: #011c39 ;
     width: 100%;
     height: 100%;
     padding: 60px;
@@ -404,7 +405,7 @@ nav .fa{
 
   @media(max-width: 768px){ 
     .profile__content{
-        background: #2a0e4d ;
+        background: #011c39 ;
         width: auto;
         height: auto;
         margin-top: 0px;
@@ -451,7 +452,7 @@ iframe{
     padding-left: 0px;
     padding-right: 0px;
     font-size: 17px;
-    border: 1px solid #f44336;
+    border: 1px solid #011c39;
     border-radius: 20px;
     padding: 20px;
     
@@ -559,14 +560,18 @@ iframe{
     color: #000;
     font-weight: 300;
 }
-
+.home-branch .row a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
 .home-branch-col{
     padding: 10px;
     width: auto;
     height: auto;
     margin-left: 50px;
     border-radius: 20px;
-    border: 1px solid #f44336;
+    border: 1px solid #011c39;
     cursor: pointer;
 }
 .home-branch-col h3 {
@@ -579,9 +584,9 @@ iframe{
 }
 
 .red-btn{
-   border: 1px solid #f44336;
+   border: 1px solid #011c39;
    background: transparent;
-   color: #f44336;
+   color: #000;
    text-decoration: none;
    border-radius: 50px;
 }
@@ -613,7 +618,7 @@ iframe{
         height: auto;
         margin-left: 30px;
         border-radius: 20px;
-        border: 0px solid #f44336;
+        border: 0px solid #011c39;
         cursor: pointer;
         margin-top: 20px;
 
@@ -638,9 +643,9 @@ iframe{
         color: #fff;
     }
     .red-btn{
-        border: 1px solid #f44336;
+        border: 1px solid #011c39;
         background: transparent;
-        color: #f44336;
+        color: #fff;
         text-decoration: none;
         border-radius: 50px;
         font-size: 14px;
@@ -2525,5 +2530,160 @@ footer{
         padding-right: 30px;
         
     }
+}
+
+/*--------------WHO WE ARE-----------------*/
+
+.about-us-who-we-are{
+    width: 100%;
+}
+
+.who-we-are{
+    width: 89%;
+    padding-left: 100px;
+}
+.who-we-are-col{
+    padding: 10px;
+}
+.who-we-are-col img{
+    width: 100%;
+}
+
+.who-we-are-col{
+    font-size: 20px;
+}
+
+@media(max-width: 768px){
+    .about-us-who-we-are{
+        width: 100%;
+    }
+    
+    .who-we-are{
+        width: 90%;
+        padding-left: 1px;
+    }
+    .who-we-are-col{
+        padding: 1px;
+    }
+    .who-we-are-col img{
+        width: 100%;
+    }
+    
+    .who-we-are-col{
+        font-size: 16px;
+    }
+    
+}
+
+
+
+
+/*--------------VISION AND MISSION-----------------*/
+
+.about-us-vision-and-mission{
+    width: 100%;
+}
+
+.vision-and-mission{
+    width: 89%;
+    padding-left: 100px;
+}
+.vision-and-mission-col{
+    padding: 10px;
+}
+.vision-and-mission-col img{
+    width: 1000px;
+}
+
+.vision-and-mission-col{
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .about-us-vision-and-mission{
+        width: 100%;
+    }
+    
+    .vision-and-mission{
+        width: 90%;
+        padding-left: 1px;
+    }
+    .vision-and-mission-col{
+        padding: 1px;
+    }
+    .vision-and-mission-col img{
+        width: 100%;
+    }
+    
+    .vision-and-mission-col{
+        font-size: 16px;
+    }
+}
+
+
+
+/*--------------WHERE WE WORK-----------------*/
+
+.about-us-where-we-work{
+    width: 100%;
+}
+
+.where-we-work{
+    width: 89%;
+    padding-left: 100px;
+}
+.where-we-work-col{
+    padding: 10px;
+}
+.where-we-work-col img{
+    width: 100%;
+}
+
+.where-we-work-col{
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .about-us-where-we-work{
+        width: 100%;
+    }
+    
+    .where-we-work{
+        width: 90%;
+        padding-left: 1px;
+    }
+    .where-we-work-col{
+        padding: 1px;
+    }
+    .where-we-work-col img{
+        width: 100%;
+    }
+    
+    .where-we-work-col{
+        font-size: 16px;
+    }
+
+}
+
+
+
+/*--------------OUR IMPACT CONTENT-----------------*/
+
+.about-us-our-impact{
+    width: 100%;
+}
+
+.our-impact{
+    width: 89%;
+    padding-left: 100px;
+}
+.our-impact-col{
+    padding: 10px;
+}
+.our-impact-col img{
+    width: 1000px;
+}
+.our-impact-col{
+    font-size: 20px;
 }
 
