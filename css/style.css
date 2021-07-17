@@ -645,7 +645,7 @@ iframe{
     .red-btn{
         border: 1px solid #011c39;
         background: transparent;
-        color: #fff;
+        color: #000;
         text-decoration: none;
         border-radius: 50px;
         font-size: 14px;
@@ -2746,6 +2746,49 @@ footer{
         width: 100%;
     }
     .our-impact-col{
+        font-size: 16px;
+    }
+}
+
+
+
+
+/*--------------GET INVOLVED YOUTH EMPOWERMENT -----------------*/
+
+.program-youth-empowerment{
+    width: 100%;
+}
+
+.youth-empowerment{
+    width: 89%;
+    padding-left: 100px;
+}
+.youth-empowerment-col{
+    padding: 10px;
+}
+.youth-empowerment-col img{
+    width: 100%;
+}
+.youth-empowerment-col{
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .program-youth-empowerment{
+        width: 100%;
+    }
+    
+    .youth-empowerment{
+        width: 90%;
+        padding-left: 1px;
+    }
+    .youth-empowerment-col{
+        padding: 10px;
+    }
+    .youth-empowerment-col img{
+        width: 100%;
+    }
+    .youth-empowerment-col{
         font-size: 16px;
     }
 }
