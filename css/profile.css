@@ -119,47 +119,6 @@
 
 
 
-.branch-container{
-    margin: 10px;
-}
-
-.branch-content{
-    width: 80%;
-    display: flex;
-    margin-left: 125px;
-   
-
-}
-.branch-img-one img{
-    width: 600px;
-    margin-left: 20px;
-    border-radius: 20px;
-}
-
-.branch-content-main{
-    width: 80%;
-    display: block;
-    margin-left: 125px;
-}
-
-.branch-content-main-one{
-    width: 80%;
-    display: flex;
-    margin-left: 125px;
-}
-.branch-img-two img{
-    width: 600px;
-    margin-right: 20px;
-    border-radius: 20px;
-}
-
-.social-media{
-    width: 80%;
-    display: flex;
-    padding-left: 100px;
-
-}
-
 .tweeter{
     margin-right: 100px;
     width: 100%;
@@ -171,33 +130,7 @@
 }
 
 
-.donations{
-    height: auto;
-    width: 100%;
-}
-.donate-container{
-    width: 87%;
-    margin-left: 100px;
-}
-.paypal{
-    background-image: url(/images/body/donate1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-}
 
-.paypal-content{
-    width: 40%;
-    padding-top: 50px;
-    margin-left: 40px;
-}
-.mpesa-content{
-    width: 40%;
-    padding-top: 45px;
-    margin-left: 400px;
-}
 
 /*----------CAREERS----------*/
 .container-fluid-careers{

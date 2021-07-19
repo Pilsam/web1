@@ -2793,3 +2793,336 @@ footer{
     }
 }
 
+
+
+/*--------------GET INVOLVED CAREERS -----------------*/
+
+.get-involved-careers-container{
+    width: 100%;
+}
+
+.careers{
+    width: 89%;
+    padding-left: 100px;
+}
+.get-involved-career-col{
+    padding: 10px;
+}
+.get-involved-career-col img{
+    width: 100%;
+}
+.get-involved-career-col{
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .get-involved-careers-container{
+        width: 100%;
+    }
+    
+    .careers{
+        width: 90%;
+        padding-left: 1px;
+    }
+    .get-involved-career-col{
+        padding: 10px;
+    }
+    .get-involved-career-col img{
+        width: 100%;
+    }
+    .get-involved-career-col{
+        font-size: 16px;
+    }
+}
+
+
+
+
+/*--------------GET INVOLVED INTERNSHIP -----------------*/
+
+.get-involved-internship-container{
+    width: 100%;
+}
+
+.internship{
+    width: 89%;
+    padding-left: 100px;
+}
+.get-involved-internship-col{
+    padding: 10px;
+}
+.get-involved-internship-col img{
+    width: 100%;
+}
+.get-involved-internship-col{
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .get-involved-internship-container{
+        width: 100%;
+    }
+    
+    .internship{
+        width: 90%;
+        padding-left: 1px;
+    }
+    .get-involved-internship-col{
+        padding: 10px;
+    }
+    .get-involved-internship-col img{
+        width: 100%;
+    }
+    .get-involved-internship-col{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+/*--------------GET INVOLVED VOLUNTEER -----------------*/
+
+.get-involved-volunteer-container{
+    width: 100%;
+}
+
+.volunteer{
+    width: 89%;
+    padding-left: 100px;
+}
+.get-involved-volunteer-col{
+    padding: 10px;
+}
+.get-involved-volunteer-col img{
+    width: 100%;
+}
+.get-involved-volunteer-col{
+    font-size: 20px;
+}
+
+.get-involved-volunteer-col iframe{
+    width: 100%;
+    height: 900px;
+}
+
+@media (max-width: 768px){
+    .get-involved-volunteer-container{
+        width: 100%;
+    }
+    
+    .volunteer{
+        width: 90%;
+        padding-left: 1px;
+    }
+    .get-involved-volunteer-col{
+        padding: 10px;
+    }
+    .get-involved-volunteer-col img{
+        width: 100%;
+    }
+    .get-involved-volunteer-col{
+        font-size: 16px;
+    }
+
+    .get-involved-volunteer-col iframe{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*-----------GET INVOLVED DONATE DONATE----------------*/
+
+.donations{
+    height: auto;
+    width: 100%;
+}
+.donate-container{
+    width: 87%;
+    margin-left: 100px;
+}
+.paypal{
+    background-image: url(/images/body/donate1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.paypal-content{
+    width: 40%;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.mpesa-content{
+    width: 40%;
+    padding-top: 45px;
+    margin-left: 400px;
+}
+
+@media (max-width:768px){
+    .donations{
+        height: auto;
+        width: 100%;
+    }
+    .donate-container{
+        width: 100%;
+        margin-left: 1px;
+    }
+    .paypal{
+        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .paypal-content{
+        width: 100%;
+        padding-top: 10px;
+        margin-left: 5px;
+    }
+    .mpesa-content{
+        width: 100%;
+        padding-top: 10px;
+        margin-left: 5px;
+    }
+    
+
+}
+
+
+
+/*--------------STRATEGIC PLAN----------------*/
+
+.strategic-plan-container{
+    width: 100%;
+}
+
+.strategic-plan{
+    width: 89%;
+    padding-left: 100px;
+}
+.strategic-plan-col{
+    padding: 10px;
+}
+.strategic-plan-col img{
+    width: 100%;
+}
+.strategic-plan-col{
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .strategic-plan-container{
+        width: 100%;
+    }
+    
+    .strategic-plan{
+        width: 90%;
+        padding-left: 1px;
+    }
+    .strategic-plan-col{
+        padding: 10px;
+    }
+    .strategic-plan-col img{
+        width: 100%;
+    }
+    .strategic-plan-col{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+/*--------------BRANCHERS KERICHO BRANCH---------------*/
+
+
+.branch-container{
+    margin: 0px;
+}
+
+.branch-content{
+    width: 80%;
+    display: flex;
+    margin-left: 125px;
+   
+
+}
+.branch-img-one img{
+    width: 600px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.branch-content-main{
+    width: 80%;
+    display: block;
+    margin-left: 125px;
+}
+
+.branch-content-main-one{
+    width: 80%;
+    display: flex;
+    margin-left: 125px;
+}
+.branch-img-two img{
+    width: 600px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+
+@media(max-width:768px){
+    .branch-container{
+        margin: 0px;
+    }
+    
+    .branch-content{
+        width: 100%;
+        display: block;
+        margin-left: 1px;
+       
+    
+    }
+    .branch-img-one img{
+        width: 100%;
+        margin-left: 2px;
+        border-radius: 1px;
+        margin-bottom: 0px;
+    }
+            
+        .branch-content-main{
+            width: 100%;
+            display: block;
+            margin-left: 1px;
+        }
+
+        .branch-content-main-one{
+            width: 100%;
+            display: block;
+            margin-left: 1px;
+        }
+        .branch-img-two img{
+            width: 100%;
+            margin-right: 1px;
+            border-radius: 1px;
+        }
+        }
+
