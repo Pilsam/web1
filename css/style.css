@@ -188,16 +188,19 @@ nav .icon-burger .line{
     color: #000;
     text-align: center;
     position: absolute;
+    background: rgba(34, 34, 34, 0.5);
 }
 
 
 .text-box h1{
     font-size: 60px;
-    margin-bottom: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px; 
     margin-top: 450px;
-    color: #000;
-    font-weight: 800;
+    font-family: Verdana, Geneva,  Tahoma, italic, sans-serif;
+    color: #ffff;
+    font-weight: 400;
+   
+    
 }
 .text-box p{
     font-size: 20px;
@@ -565,6 +568,7 @@ iframe{
     color: #fff;
     font-weight: 300;
 }
+
 .home-branch-col{
     padding: 10px;
     width: auto;
