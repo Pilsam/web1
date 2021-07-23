@@ -2,148 +2,195 @@
 *{
     margin: 0;
     padding: 0;
+    user-select: none;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 
 }
 
 html, body{
     background: #eff3f8;
-    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
 }
 
-@media(max-width: 768px){
-    body{
-        margin-left: 1px;
-    }
-}
+
 
 
 /*---------HEADER---------*/
-nav{
+.nav-top{
+    background: #011c39;
+    width: 100%;
     position: fixed;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0 5%;
-    height: 80px;
-    background-color: #011c39;
-}
-
-nav .logo img{
+    z-index: 9999;
+  }
+  .nav-top:after{
+    content: '';
+    clear: both;
+    display: table;
+  }
+  .nav-top .logo{
     float: left;
-    width: 14%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 15px;
-
-}
-
-nav .links{
+    color: white;
+    line-height: 10px;
+    padding-left: 40px;
+  }
+  .nav-top ul{
     float: right;
-    padding: 0;
-    margin: 0;
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-nav .links li{
+    margin-right: 40px;
     list-style: none;
-}
-
-nav .links a {
-    display: block;
-    font-weight: 400;
-    color: #fff;
+    position: relative;
+  }
+  .nav-top ul li{
+    float: left;
+    display: inline-block;
+    margin: 0 5px;
+    margin-top: 20px;
+  }
+  
+  .nav-top ul li ul li{
+    background: #011c39;
+    font-size: 12px;
+  }
+  
+  .nav-top ul li ul li:hover{
+    background: #000000;
+    transition: 1s;
+  }
+  .nav-top ul li a{
+    color: white;
+    line-height: 10px;
     text-decoration: none;
     font-size: 14px;
-}
-
-#nav-toggle{
+    padding: 6px 8px;
+  }
+  
+  .nav-top ul ul li a:hover{
+    box-shadow: none;
+  }
+  .nav-top ul ul{
     position: absolute;
-    top: -100px;
-
-}
-
-nav .icon-burger{
-    display: none;
+    top: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .6s;
+  }
+  .nav-top ul ul ul{
+    border-top: none;
+  }
+  .nav-top ul li:hover > ul{
+    top: 45px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav-top ul ul li{
     position: relative;
-    float: right;
-    top: 50%;
-    transform: translate(-50%);
-}
+    margin: 0px;
+    width: 250px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+  }
+  .nav-top ul ul li a{
+    line-height: 50px;
+  }
+  
+  .show,.icon,input{
+    display: none;
+  }
+  
+  
+  @media all and (max-width: 768px) {
+  
+    .nav-top{
+      background: #011c39;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    .nav-top ul{
+      margin-right: 0px;
+      float: left;
+    }
+    .nav-top .logo{
+      padding-left: 10px;
+    }
+    .show + a, ul{
+      display: none;
+    }
+    .nav-top ul li,nav ul ul li{
+      display: block;
+      width: 100%;
+    }
+    .nav-top ul li a:hover{
+      box-shadow: none;
+    }
+    .nav-top ul li ul li{
+      width: 100%;
+    }
+    .show{
+      display: block;
+      color: white;
+      font-size: 14px;
+      padding: 0 10px;
+      line-height: 30px;
+      cursor: pointer;
+    }
+    
+  
+  
+    .icon{
+      display: block;
+      color: white;
+      position: absolute;
+      top: 0;
+      right: 20px;
+      line-height: 70px;
+      cursor: pointer;
+      font-size: 30px;
+    }
+  
+    .nav-top ul ul{
+      top: 30px;
+      border-top: 0px;
+      float: none;
+      position: static;
+      display: none;
+      opacity: 1;
+      visibility: visible;
+      background: #f2f2f2;
+      
+    }
+    .nav-top ul ul a{
+      padding-left: 40px;
+    }
+    .nav-top ul ul ul a{
+      padding-left: 80px;
+    }
+    .nav-top ul ul ul li{
+      position: static;
+    }
+    [id^=btn]:checked + ul{
+      display: block;
+    }
+    .nav-top ul ul li{
+      border-bottom: 0px;
+    }
+    span.cancel:before{
+      content: '\f00d';
+    }
+  }
+  
+  
+  
 
-nav .icon-burger .line{
-    width: 30px;
-    height: 5px;
-    background-color: #fff;
-    margin: 5px;
-    border-radius: 3px;
-}
 
 
 
-@media(max-width: 768px) {
-    nav{
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        right: 0;
-        top: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding: 0 1px;
-        height: 60px;
-        background-color: #011c39;
-    }
-    nav .logo{
-        float: left;
-        width: auto;
-        justify-content: center;
-    }
 
-    nav .logo img{
-        width: 66%;
-        padding-top: 5%;
-    }
-    nav .links{
-        float: none;
-        position: fixed;
-        z-index: 9;
-        left: 0;
-        right: 0;
-        top: 60px;
-        bottom: 100%;
-        width: auto;
-        height: auto;
-        flex-direction: column;
-        background-color: rgba(0,0,0,.8);
-        overflow: hidden;
-        transition: all .5s ease-in-out;
-    }
-    nav .links li{
-        margin-top: 2px;
-    }
 
-    nav .links a{
-        font-size: 14px;
-    }
-    nav .icon-burger{
-        display: block;
-        top: 40%;
-    }
-    nav :checked ~ .links{
-        bottom: 0;
-    }
-    nav .icon-burger .line{
-        transition: all .3s ease-in-out;
-    } 
-}
+
+
 
 
 
@@ -1824,6 +1871,7 @@ footer{
     height: 80vh;
     background-color: #000;
     width: 100%;
+    margin-top: 10vh;
 }
 .about{
     height: 80vh;
@@ -1864,6 +1912,7 @@ footer{
         height: 36vh;
         background-color: #000;
         width: 100%;
+        margin-top: -10px;
     }
     .about{
         height: 36vh;
@@ -3135,3 +3184,95 @@ footer{
         }
         }
 
+
+
+        /*------------OUR PATNERS FOR WIDE SCREEN-----------*/
+
+        .partners-container-wideview{
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .partners-col{
+            width: 80%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media (max-width:768px){
+
+            .partners-container-wideview{
+                height: -1000px;
+                padding-right: 0px;
+                padding-left: 0px;
+                margin-right: -100px;
+                margin-left: -100px;
+                visibility: hidden;
+            }
+    
+            .partners-col{
+            height: -1000px;
+            padding-right: 0px;
+            padding-left: 0px;
+            margin-right: -100px;
+            margin-left: -100px;
+            visibility: hidden;
+            }
+
+        }
+
+         /*------------OUR PATNERS FOR small SCREEN-----------*/
+
+         .partners-container-smallview{
+            height: -1000px;
+            padding-right: 0px;
+            padding-left: 0px;
+            margin-right: -100px;
+            margin-left: -100px;
+            visibility: hidden;
+         }
+
+         .partners-col-smallview{
+            height: -1000px;
+            padding-right: 0px;
+            padding-left: 0px;
+            margin-right: -100px;
+            margin-left: -100px;
+            visibility: hidden;
+         }
+
+         .partners-col-smallview img{
+             margin: -1000px;
+             visibility: hidden;
+         }
+
+         @media(max-width: 768px){
+            .partners-container-smallview{
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                visibility: visible;
+             }
+    
+             .partners-col-smallview{
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                visibility: visible;
+             }
+    
+             .partners-col-smallview img{
+                 margin: 20px;
+                 width: 200px;
+                 visibility: visible;
+             }
+         }

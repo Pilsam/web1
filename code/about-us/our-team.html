@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KYC | Our team</title>
+
     <link rel="shortcut icon" href="/images/partners/icon.jpg">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/profile.css">
+    <link rel="stylesheet" href="/css/team.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -19,26 +20,81 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 </head>
 <body>
+
+    
 <!----------HEADER---------------->
 
-<nav>
-    <input id="nav-toggle" type="checkbox">
-    <div class="logo"> <a href="#home"> <img src="/images/partners/logo.png"  alt=""></a></div>
-    <ul class="links">
-        <li><a href="/index.html" >Home</a></li>
-        <li><a href="/about.html"> About Us</a></li>
-        <li><a href="/program.html"> Programs and Services</a></li>
-        <li><a href="/get-involved.html"> Get Involved</a></li>
-        <li><a href="/resources.html"> Resources</a></li>
-        <li><a href="/contact-us.html"> Contact</a></li>
-    </ul>
-    <label for="nav-toggle" class="icon-burger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+<section class="nav-top">
+    <div class="logo"><img src="/images/partners/logo.png" style="width:125px; margin-top:10px;" ></div>
+    <label for="btn" class="icon">
+      <span class="fa fa-bars"></span>
     </label>
-</nav>
+    <input type="checkbox" id="btn">
 
+
+    <ul>
+      <li><a href="#">Home</a></li>
+
+
+      <li>
+        <label for="btn-1" class="show">About us</label>
+        <a href="#">About us</a>
+        <input type="checkbox" id="btn-1">
+        <ul>
+          <li><a href="#">Who we are</a></li>
+          <li><a href="#">Our History</a></li>
+          <li><a href="#">Vision and Mission</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Our Achievements</a></li>
+          <li><a href="#">Where we Work</a></li>
+          <li><a href="#">Impact</a></li>
+
+        </ul>
+      </li>
+
+      <li>
+        <label for="btn-2" class="show">Programs</label>
+        <a href="#">Programs</a>
+        <input type="checkbox" id="btn-2">
+        <ul>
+          <li><a href="#">Youth empowerment</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Economic empowerment</a></li>
+          <li><a href="#">Leadership development</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <label for="btn-3" class="show">Get Involved</label>
+        <a href="#">Get Involved</a>
+        <input type="checkbox" id="btn-3">
+        <ul>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Internship</a></li>
+          <li><a href="#">Volunteer</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <label for="btn-4" class="show">Resources</label>
+        <a href="#">Resources</a>
+        <input type="checkbox" id="btn-4">
+        <ul>
+          <li><a href="#">Strategic Plan</a></li>
+          <li><a href="#">Policies</a></li>
+          <li><a href="#">Annual Report</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+</section>
 
 
 <section class="about-header">
@@ -52,7 +108,7 @@
         </div>
     </section>
 
-
+    
 <!---------TABS--------------->
 <section class="about-us-tab">
     <div class="about-us-tab-content1">
@@ -132,7 +188,7 @@
 
 
  <!----Our Staff TEAM------>
- <div class="py-1 members">
+ <div class="py-1 members" id="staff-team">
     <div class="container">
         <div class="row justify-content-center mb-3">
             <div class="col-lg-3 text-left">
@@ -143,13 +199,13 @@
         <div class="row">
 
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-lg-2">
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/kevo.JPG" alt="" style="cursor: pointer;">
-                        <div class="col-lg-7 mx-auto">
-                            <div class="p-10">
-                                <h6 class="mb-8">Kevin Kiplangat</h6>
+                        <div class="col-lg-12 mx-auto text-center">
+                            <div class="p-14">
+                                <h6 class="mb-2">Kevin Kiplangat</h6>
                                 <p>Finance Manager</p>
                             </div>
                         </div>
@@ -158,13 +214,13 @@
             </div>
 
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-lg-2">
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/ezekiel.JPG" alt="" style="cursor: pointer;">
-                        <div class="col-lg-7 mx-auto">
-                            <div class="p-10">
-                                <h6 class="mb-8">Ezekiel Bett</h6>
+                        <div class="col-lg-12 mx-auto text-center">
+                            <div class="p-14">
+                                <h6 class="mb-2">Ezekiel Bett</h6>
                                 <p>Business Development Officer</p>
                             </div>
                         </div>
@@ -176,7 +232,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/elvis.jpg" alt="" style="cursor: pointer;">
-                        <div class="col-lg-7 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Elvis</h6>
                                 <p>Program Coodinator</p>
@@ -193,7 +249,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/jackiee1.jpg" alt="" style="cursor: pointer;">
-                        <div class="col-lg-7 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Jackie Acharai</h6>
                                 <p>Office Assistant</p>
@@ -211,7 +267,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/sheila.JPG" alt="" style="cursor: pointer;">
-                        <div class="col-lg-8 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Sheila Sang</h6>
                                 <p>Volunteer</p>
@@ -225,7 +281,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/peter1.jpg" alt="" style="cursor: pointer;">
-                        <div class="col-lg-7 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Peter</h6>
                                 <p>Music Producer</p>
@@ -238,7 +294,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/beatrice.jpg" alt="" style="cursor: pointer;">
-                        <div class="col-lg-8 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Beatrice</h6>
                                 <p>Lorem, ipsum dolor.</p>
@@ -253,7 +309,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/chao.JPG" alt="" style="cursor: pointer;">
-                        <div class="col-lg-7 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Joice Chao</h6>
                                 <p>Lorem ipsum dolor</p>
@@ -272,7 +328,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/pic2.JPG" alt="" style="cursor: pointer;">
-                        <div class="col-lg-8 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Lorem, ipsum.</h6>
                                 <p>Lorem, ipsum dolor.</p>
@@ -286,7 +342,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/pic3.JPG" alt="" style="cursor: pointer;">
-                        <div class="col-lg-7 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Lorem, ipsum.</h6>
                                 <p>Lorem, ipsum dolor.</p>
@@ -299,7 +355,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/intern2.jpg" alt="" style="cursor: pointer;">
-                        <div class="col-lg-8 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Pilsam Hezron</h6>
                                 <p>Intern (IT)</p>
@@ -314,7 +370,7 @@
                 <div class="card border-0 mb-4">
                     <div class="row border-0 col-md-12">
                             <img class="col-md-12 col-md-4 col-sm-4" src="/images/team/anne.jpg" alt="" style="cursor: pointer;">
-                        <div class="col-lg-7 mx-auto">
+                        <div class="col-lg-12 mx-auto text-center">
                             <div class="p-10">
                                 <h6 class="mb-8">Anne</h6>
                                 <p>Lorem ipsum dolor</p>
@@ -390,6 +446,14 @@
             <p>All rights Reserved</p>
         </div>
     </div>
+
+
+    <script>
+        $('.icon').click(function(){
+          $('span').toggleClass("cancel");
+        });
+      </script>
+        
 
 </body>
 </html>
