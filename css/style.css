@@ -369,18 +369,14 @@ html, body{
     transition: 1s;
 }
 
-nav .fa{
-    display: none;
-}
-
 @media(max-width: 768px){
     .header-slide{
         height: 40vh;
-        background-color: #ffff01;
         width: 100%;
     }
     .slide1, .slide2, .slide3, .slide4{
-        height: 50vh;
+    
+        height: 40vh;
         width: 100%;
         position: absolute;
         left: 0;
@@ -403,8 +399,7 @@ nav .fa{
     .text-box h1{
         font-size: 16px;
         margin-bottom: 5px;
-        opacity: 9;
-        margin-top: 160px;
+        margin-top: 130px;
 
         
     }
@@ -413,6 +408,128 @@ nav .fa{
         font-size: 8px;
         color: #fff;
     }
+
+    .slide1, .slide2, .slide3, .slide4{
+        height: 40vh;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        opacity: 1;
+        overflow: hidden;
+    }
+    
+    .slide-img img{
+        height: 100%;
+        width: 101%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: smooth translate(-50%,-50%);
+        animation: zoom-in 10s linear infinite ;
+        overflow: hidden;
+        opacity: 1;
+    }
+    
+    @keyframes zoom-in{
+        100%{
+             width: 98%;
+         }
+     }
+
+
+
+
+
+
+    .slide1{
+        animation: slide1 10s  linear infinite ;
+    }
+    
+    .slide2{
+        animation: slide2 10s  linear infinite ;
+    }
+    
+    .slide3{
+        animation: slide3 10s linear infinite ;
+    }
+    
+    .slide4{
+        animation: slide4 10s linear infinite ;
+    }
+    @keyframes slide1{
+        0%{
+            visibility: visible;
+        } 
+        25%{
+            visibility: hidden;
+        }
+        50%{
+            visibility: hidden;
+        }
+        75%{
+            visibility: hidden;
+        }
+        100%{
+            visibility: visible;
+        }
+    }
+    
+    
+    @keyframes slide2{
+        0%{
+            visibility: hidden;
+        } 
+        25%{
+            visibility: hidden;
+        }
+        50%{
+            visibility: visible;
+        }
+        75%{
+            visibility: hidden;
+        }
+        100%{
+            visibility: hidden;
+        }
+    }
+    
+    @keyframes slide3{
+        0%{
+            visibility: hidden;
+        } 
+        25%{
+            visibility: hidden;
+        }
+        50%{
+            visibility: hidden;
+        }
+        75%{
+            visibility: visible;
+        }
+        100%{
+            visibility: hidden;
+        }
+    }
+    
+    
+    @keyframes slide4{
+        0%{
+            visibility: hidden;
+        } 
+        25%{
+            visibility: hidden;
+        }
+        50%{
+            visibility: hidden;
+        }
+        75%{
+            visibility: hidden;
+        }
+        100%{
+            visibility: visible;
+        }
+    }
+    
 
     
 }
