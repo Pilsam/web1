@@ -442,19 +442,19 @@ html, body{
 
 
     .slide1{
-        animation: slide1 10s  linear infinite ;
+        animation: slide1 40s  linear infinite ;
     }
     
     .slide2{
-        animation: slide2 10s  linear infinite ;
+        animation: slide2 40s  linear infinite ;
     }
     
     .slide3{
-        animation: slide3 10s linear infinite ;
+        animation: slide3 40s linear infinite ;
     }
     
     .slide4{
-        animation: slide4 10s linear infinite ;
+        animation: slide4 40s linear infinite ;
     }
     @keyframes slide1{
         0%{
