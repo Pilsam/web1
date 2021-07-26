@@ -2964,9 +2964,14 @@ footer{
     font-size: 20px;
 }
 
-.get-involved-volunteer-col iframe{
-    width: 100%;
-    height: 900px;
+.get-involved-volunteer-col ol li{
+    font-size: 20px;
+}
+
+.get-involved-volunteer-col ol li ol li{
+    list-style-type: lower-roman;
+    font-size: 20px;
+    margin-left: 100px;
 }
 
 @media (max-width: 768px){
@@ -2975,23 +2980,28 @@ footer{
     }
     
     .volunteer{
-        width: 90%;
-        padding-left: 1px;
+        width: 92%;
+        padding-left: 15px;
     }
     .get-involved-volunteer-col{
-        padding: 10px;
+        padding: 1px;
     }
     .get-involved-volunteer-col img{
         width: 100%;
     }
     .get-involved-volunteer-col{
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .get-involved-volunteer-col ol li{
+        font-size: 14px;
+    }
+    
+    .get-involved-volunteer-col ol li ol li{
+        list-style-type: lower-roman;
+        font-size: 14px;
+        margin-left: 1px;
     }
 
-    .get-involved-volunteer-col iframe{
-        width: 100%;
-        height: 400px;
-    }
 }
 
 
