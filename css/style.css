@@ -515,8 +515,8 @@ iframe{
 
 }
 .video{
-    padding-top: 50px;
-    padding-bottom: 20px;
+    margin-top: 70px;
+    padding-bottom: 10px;
 }
 @media(max-width: 768px){
     .youtube-link{
