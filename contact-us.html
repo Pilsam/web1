@@ -25,8 +25,6 @@
       <span class="fa fa-bars"></span>
     </label>
     <input type="checkbox" id="btn">
-
-
     <ul>
       <li><a href="/index.html">Home</a></li>
 
@@ -51,10 +49,10 @@
         <a href="/program.html">Programs</a>
         <input type="checkbox" id="btn-2">
         <ul>
-          <li><a href="/code/involved/youth.html">Youth empowerment</a></li>
-          <li><a href="/code/involved/health.html">Health</a></li>
-          <li><a href="/code/involved/economic.html">Economic empowerment</a></li>
-          <li><a href="/code/involved/leadership.html">Leadership development</a></li>
+            <li><a href="/code/involved/health.html">Health Programs</a></li>
+            <li><a href="/code/involved/youth.html">Youth Empowerment</a></li>
+            <li><a href="/code/involved/leadership.html">Leadership Development</a></li>
+            <li><a href="/code/involved/environment.html">Environmental Conservation</a></li>
         </ul>
       </li>
 
@@ -94,7 +92,7 @@
 <section class="contact-us-header">
     <div class="contact-us-content">
         <div class="contact-us-contact">
-            <div class="contact-us-img"> <img src="/images/header/slide1.JPG" alt=""> </div>
+            <div class="contact-us-img"> <img src="/images/header/contact.JPG" alt=""> </div>
             <div class="contact-us-text-box">
                 <h1>Contact Us</h1>
                     </div>
@@ -115,6 +113,7 @@
 
 <section class="contact-us">
     <div class="row-contact">
+        <!----------HEADER--------
         <div class="contact-col">
             <div>
                 <i class="fa fa-home"></i>
@@ -143,10 +142,11 @@
                     <p>Send us your Email</p>
                 </span>
             </div>
-        </div>
-        
+        </div> -------->
+
+
         <div class="contact-col">
-            <form action="/css/form-handle.php" method="get">
+            <form method="POST">
                 <input type="text" name="name" placeholder="Enter your name" required>
                 <input type="email" name="email" placeholder="Enter email address" required>
                 <input type="text" name="subject" placeholder="Enter your subject" required>
@@ -178,6 +178,7 @@
             <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
         </div>
     </div>
+    <br>
 
     <div class="footer-right">
         <div class="product">
@@ -222,5 +223,12 @@
             <p>All rights Reserved</p>
         </div>
     </div>
+
+
+    <script>
+        $('.icon').click(function(){
+          $('span').toggleClass("cancel");
+        });
+      </script>
 </body>
 </html>

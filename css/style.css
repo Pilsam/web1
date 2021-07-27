@@ -51,7 +51,7 @@ html, body{
   
   .nav-top ul li ul li{
     background: #011c39;
-    font-size: 12px;
+    font-size: 14px;
   }
   
   .nav-top ul li ul li:hover{
@@ -60,7 +60,7 @@ html, body{
   }
   .nav-top ul li a{
     color: white;
-    line-height: 10px;
+    line-height: 15px;
     text-decoration: none;
     font-size: 14px;
     padding: 6px 8px;
@@ -93,7 +93,7 @@ html, body{
     border-bottom: 1px solid rgba(0,0,0,0.3);
   }
   .nav-top ul ul li a{
-    line-height: 50px;
+    line-height: 40px;
   }
   
   .show,.icon,input{
@@ -162,8 +162,11 @@ html, body{
       background: #f2f2f2;
       
     }
+    .nav-top ul ul li a{
+        line-height: 40px;
+      }
     .nav-top ul ul a{
-      padding-left: 40px;
+      padding-left: 80px;
     }
     .nav-top ul ul ul a{
       padding-left: 80px;
@@ -1920,7 +1923,19 @@ footer{
     color: #555;
     font-weight: 400;
 }
-.contact-col input, .contact-col textarea{
+.contact-col input{
+    width: 100%;
+    padding: 15px;
+    overflow-x: visible;
+    overflow-y: visible;
+    overflow: visible;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact-col textarea{
     width: 100%;
     padding: 15px;
     margin-bottom: 17px;
@@ -1964,11 +1979,10 @@ footer{
     color: #555;
     font-weight: 400;
 }
-.contact-col input, .contact-col textarea{
+.contact-col input .contact-col textarea{
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
@@ -2178,7 +2192,7 @@ footer{
         width: 100%;
         position: absolute;
         overflow: hidden;
-        opacity: 0.5;
+        opacity: 0.9;
     }
     .involved-text-box{
         height: auto;
@@ -3335,26 +3349,25 @@ footer{
         @media (max-width:768px){
 
             .partners-container-wideview{
-                height: -1000px;
-                padding-right: 0px;
-                padding-left: 0px;
-                margin-right: -100px;
-                margin-left: -100px;
-                visibility: hidden;
+                height: auto;
+                padding-right: 1px;
+                padding-left: 1px;
+                margin-right: 0px;
+                margin-left: 0px;
+                
             }
     
             .partners-col{
-            height: -1000px;
-            padding-right: 0px;
-            padding-left: 0px;
-            margin-right: -100px;
-            margin-left: -100px;
-            visibility: hidden;
+            height: auto;
+            padding-right: 1px;
+            padding-left: 1px;
+            margin-right: 0px;
+            margin-left: 0px;
             }
 
         }
 
-         /*------------OUR PATNERS FOR small SCREEN-----------*/
+         /*------------OUR PATNERS FOR small 
 
          .partners-container-smallview{
             height: -1000px;
@@ -3404,3 +3417,4 @@ footer{
                  visibility: visible;
              }
          }
+         SCREEN-----------*/
