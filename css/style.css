@@ -3332,6 +3332,7 @@ footer{
         /*------------OUR PATNERS FOR WIDE SCREEN-----------*/
 
         .partners-container-wideview{
+            height: 20vh;
             width: 100%;
             padding-right: 15px;
             padding-left: 15px;
@@ -3350,20 +3351,22 @@ footer{
         @media (max-width:768px){
 
             .partners-container-wideview{
-                height: auto;
+                width: 100%;
                 padding-right: 1px;
                 padding-left: 1px;
-                margin-right: 0px;
-                margin-left: 0px;
+              
                 
             }
     
             .partners-col{
-            height: auto;
-            padding-right: 1px;
-            padding-left: 1px;
-            margin-right: 0px;
-            margin-left: 0px;
+                width: 90%;
+                padding-right: 1px;
+                padding-left: 1px;
+                
+            
+            }
+            .partners-col .slide img{
+                width: 100px;
             }
 
         }
