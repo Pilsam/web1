@@ -3010,11 +3010,11 @@ footer{
     padding: 10px;
 }
 .get-involved-career-col p{
-    font-size: 30px;
+    font-size: 20px;
      font-weight: 250;
 }
 .get-involved-career-col h1{
-    font-size: 60px; 
+    font-size: 30px; 
     font-weight: 500;
 }
 
@@ -3025,15 +3025,22 @@ footer{
     padding-left: 100px;
 }
 
-.get-involved-career-col ul a{
+.get-involved-career-col ul a, p a{
     text-decoration: none;
-    color: rgb(235, 36, 36);
-    font-size: xx-large;
+    color: rgb(235, 36, 36, 0.8);
+    font-size: 20px;
 }
 
-.get-involved-career-col ul a :hover
+.get-involved-career-col ul a:hover
 {
-    color: blue;
+   
+    color: rgb(235, 36, 36, 1);
+}
+
+.get-involved-career-col p a:hover
+{
+    text-decoration: none;
+    color: rgb(235, 36, 36, 1);
 }
 
 .get-involved-career-col img{
@@ -3218,21 +3225,38 @@ footer{
 .donate-container{
     width: 87%;
     margin-left: 100px;
+    
+
 }
 .paypal{
-    background-image: url(/images/body/donate1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
+    width: 80%;
+    height: 90vh;
     display: flex;
+    background: url(/images/body/samyy.jpg);
+    background-size: cover;
+    margin-left: 40px;
+    
 }
 
 .paypal-content{
-    width: 40%;
+    width: 45%;
+    font-size: 23px;
+    padding: 20px;
     padding-top: 50px;
-    margin-left: 40px;
+    
+    margin-bottom: 0px;
+    background-color: rgba(172, 171, 175, 0.9);
+    border-radius: 10px;
+
 }
+
+.paypal-header{
+    color: #fff;
+}
+.paypal-content form{
+    font-size: 100px;
+}
+
 .mpesa-content{
     width: 40%;
     padding-top: 45px;
