@@ -3232,7 +3232,7 @@ footer{
     width: 80%;
     height: 90vh;
     display: flex;
-    background: url(/images/body/samyy.jpg);
+    background: url(/images/body/samyy2.jpg);
     background-size: cover;
     margin-left: 40px;
     
@@ -3240,18 +3240,20 @@ footer{
 
 .paypal-content{
     width: 45%;
-    font-size: 23px;
+    font-size: 18px;
+    font-weight: 360;
+    
     padding: 20px;
     padding-top: 50px;
-    
     margin-bottom: 0px;
-    background-color: rgba(172, 171, 175, 0.9);
+    background-color: rgba(139, 192, 216, 0.9);
     border-radius: 10px;
 
 }
 
 .paypal-header{
-    color: #fff;
+    
+    color: rgba(0,0,0, 0.9);
 }
 .paypal-content form{
     font-size: 100px;
@@ -3261,6 +3263,22 @@ footer{
     width: 40%;
     padding-top: 45px;
     margin-left: 400px;
+}
+
+
+.paypal-button{
+        background-color: #b61010;
+        width: 200px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
 }
 
 @media (max-width:768px){
