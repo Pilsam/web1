@@ -97,7 +97,11 @@ html, body{
     line-height: 40px;
   }
   
-  .show,.icon,input{
+  .show,.icon{
+    display: none;
+  }
+
+  .nav-top input{
     display: none;
   }
   
@@ -117,9 +121,15 @@ html, body{
     .nav-top .logo{
       padding-left: 10px;
     }
-    .show + a, ul{
+    
+
+    .show + a, .nav-top ul{
       display: none;
     }
+
+    
+
+
     .nav-top ul li,nav ul ul li{
       display: block;
       width: 100%;
@@ -2993,12 +3003,39 @@ footer{
 }
 
 .careers{
-    width: 89%;
-    padding-left: 100px;
+    width: 80%;
+    padding-left: 200px;
 }
 .get-involved-career-col{
     padding: 10px;
 }
+.get-involved-career-col p{
+    font-size: 30px;
+     font-weight: 250;
+}
+.get-involved-career-col h1{
+    font-size: 60px; 
+    font-weight: 500;
+}
+
+.get-involved-career-col ul{
+    text-align: left;
+    text-orientation: upright;
+    list-style:circle;
+    padding-left: 100px;
+}
+
+.get-involved-career-col ul a{
+    text-decoration: none;
+    color: rgb(235, 36, 36);
+    font-size: xx-large;
+}
+
+.get-involved-career-col ul a :hover
+{
+    color: blue;
+}
+
 .get-involved-career-col img{
     width: 100%;
 }
@@ -3018,6 +3055,34 @@ footer{
     .get-involved-career-col{
         padding: 10px;
     }
+      
+    .get-involved-career-col p{
+        font-size: 15px; 
+        font-weight: 250;
+    }
+    .get-involved-career-col h1{
+        font-size: 20px; 
+        font-weight: 500;
+    }
+
+    .get-involved-career-col h3{
+        font-size: 18px; 
+        font-weight: 500;
+    }
+    .get-involved-career-col ul a{
+        text-decoration: none;
+        color: rgb(235, 36, 36);
+        font-size: 14px;
+    }
+
+    .get-involved-career-col ul{
+        text-align: left;
+        text-orientation: upright;
+        list-style: none;
+        padding-left: 10px;
+    }
+    
+
     .get-involved-career-col img{
         width: 100%;
     }
