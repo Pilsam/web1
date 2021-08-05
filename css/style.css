@@ -105,8 +105,72 @@ html, body{
     display: none;
   }
   
+  .nav-top-button{
+    background-color: #b61010;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 8px;
+    cursor: pointer;
+    float: right;
+    margin-top: 18px;
+    
+}
+
+.nav-top-button:hover {
+text-decoration: none;
+color:  #b61010;
+font-weight: 400;
+background-color: white;
+}
+
+.nav-top-button-media{
+    visibility: hidden;
+}
+
+
+
   
   @media all and (max-width: 768px) {
+
+    .nav-top-button{
+        visibility: hidden;
+        
+    }
+
+    .nav-top-button-media{
+        visibility: visible;
+        background-color: #b61010;
+        width: 80px;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 8px;
+        cursor: pointer;
+        float: right;
+        margin-top: 20px;
+        margin-right: 60px;
+    }
+
+    .nav-top-button-media:hover {
+        text-decoration: none;
+        color:  #b61010;
+        font-weight: 400;
+        background-color: white;
+        }
+
+
   
     .nav-top{
       background: #011c39;
@@ -3235,6 +3299,7 @@ footer{
     background: url(/images/body/samyy2.jpg);
     background-size: cover;
     margin-left: 40px;
+    border-radius: 10px;
     
 }
 
@@ -3242,7 +3307,6 @@ footer{
     width: 45%;
     font-size: 18px;
     font-weight: 360;
-    
     padding: 20px;
     padding-top: 50px;
     margin-bottom: 0px;
@@ -3269,7 +3333,7 @@ footer{
 .paypal-button{
         background-color: #b61010;
         width: 200px;
-        border-radius: 15px;
+        border-radius: 10px;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -3281,33 +3345,84 @@ footer{
         cursor: pointer;
 }
 
+.paypal-button:hover {
+    text-decoration: none;
+    color:  #b61010;
+    font-weight: 600;
+    background-color: white;
+}
+
+
+
+
+
 @media (max-width:768px){
-    .donations{
-        height: auto;
-        width: 100%;
-    }
-    .donate-container{
-        width: 100%;
-        margin-left: 1px;
-    }
-    .paypal{
-        background-image: none;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    .paypal-content{
-        width: 100%;
-        padding-top: 10px;
-        margin-left: 5px;
-    }
-    .mpesa-content{
-        width: 100%;
-        padding-top: 10px;
-        margin-left: 5px;
-    }
+   
+.donations{
+    height: auto;
+    width: 100%;
+}
+.donate-container{
+    width: 100%;
+    margin-left: 10px;
+    
+
+}
+.paypal{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background: url(/images/body/samyy1.jpg);
+    background-size: cover;
+    margin-left: 1px;
+    border-radius: 5px;
+    
+}
+
+.paypal-content{
+    width: 70%;
+    font-size: 12px;
+    font-weight: 450;
+    padding: 10px;
+    padding-top: 1px;
+    margin-bottom: 0px;
+    background-color: rgba(139, 192, 216, 0.7);
+    border-radius: 5px;
+
+}
+
+.paypal-header{
+    
+    color: rgba(0,0,0, 0.9);
+}
+
+.paypal-header h5, img{
+    
+    font-size: 14px;
+}
+
+
+.paypal-button{
+    background-color: #b61010;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.mpesa-content{
+    width: 40%;
+    padding-top: 45px;
+    margin-left: 400px;
+}
     
 
 }
