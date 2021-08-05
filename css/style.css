@@ -1016,7 +1016,7 @@ h2{
     transform: scale(1.2);
 }
 
-@media(max-width:700px){
+@media(max-width:768px){
     .card-body h2{
         font-size: 12px;
     }
@@ -1037,13 +1037,13 @@ h2{
         padding-left: 10%;
     }
     .row .col-sm-4{
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 1px;
+        margin-bottom: 1px;
         max-width: 100%;
     }
     .row .col-6{
         margin-top: 50px;
-        margin-bottom: 15px;
+        margin-bottom: 1px;
         max-width: 100%;
     }
 
