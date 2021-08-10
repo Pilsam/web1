@@ -3177,11 +3177,22 @@ footer{
 .get-involved-internship-col{
     padding: 10px;
 }
+
+.get-involved-internship-col ul{
+    list-style: none;
+}
+
+
 .get-involved-internship-col img{
     width: 100%;
 }
 .get-involved-internship-col{
     font-size: 20px;
+}
+
+.quote{
+    color: #e61b00;
+    font-weight: 320;
 }
 
 @media (max-width: 768px){
@@ -3191,7 +3202,7 @@ footer{
     
     .internship{
         width: 90%;
-        padding-left: 1px;
+        padding-left: 10px;
     }
     .get-involved-internship-col{
         padding: 10px;
@@ -3231,6 +3242,10 @@ footer{
     font-size: 20px;
 }
 
+.get-involved-volunteer-col ul li{
+    list-style: none;
+}
+
 .get-involved-volunteer-col ol li{
     font-size: 20px;
 }
@@ -3248,7 +3263,7 @@ footer{
     
     .volunteer{
         width: 92%;
-        padding-left: 15px;
+        padding-left: 17px;
     }
     .get-involved-volunteer-col{
         padding: 1px;
